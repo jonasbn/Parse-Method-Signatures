@@ -15,6 +15,7 @@ requires 'MooseX::Types::Moose';
 requires 'MooseX::Types::Structured';
 requires 'namespace::clean' => '0.10';
 requires 'PPI' => '1.203';
+requires 'Scalar::Util';
 
 test_requires 'aliased';
 test_requires 'Test::More';

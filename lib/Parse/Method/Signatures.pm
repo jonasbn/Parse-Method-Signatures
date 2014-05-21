@@ -14,6 +14,7 @@ use Parse::Method::Signatures::Types qw/
 /;
 
 use Carp qw/croak/;
+use Scalar::Util qw/blessed/;
 
 use namespace::clean -except => 'meta';
 our $VERSION = '1.003016';
